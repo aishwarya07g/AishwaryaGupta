@@ -2,8 +2,17 @@
 font-family: 'Raleway', sans-serif; */
 
 body {
+  text-align: center;
 }
 
+h4,
+h6 {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  /* color: #fff; */
+}
+
+/* NAVIGATION */
 .navi {
   height: 60px;
   font-family: 'Raleway', sans-serif;
@@ -13,4 +22,80 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   line-height: 1.5;
+}
+
+/* HEADER SECTION */
+
+.heading {
+  position: relative;
+  top: 5rem;
+}
+
+.name-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.desc-subheading {
+  /* color: #fff; */
+}
+
+.btn icon-click {
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+}
+
+.icons-edit {
+  padding: 0.375rem 0.75rem;
+  display: flex;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #89bbbf;
+  border-color: #89bbbf;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  /* padding: 1.5rem 3rem; */
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+btn-primary:hover {
+  background-color: #89bbbf;
+  border-color: #89bbbf;
+}
+
+.square1 {
+  height: 30rem;
+  width: 30rem;
+  top: -10rem;
+  /* right: 35%; */
+  margin: 0 auto 0 auto;
+  background: linear-gradient(0deg, #89bbbf 0, #8d89bf 100%);
+  position: relative;
+  z-index: -1;
+}
+
+.square2 {
+  height: 30rem;
+  width: 22rem;
+  top: -40rem;
+  left: 57rem;
+  padding-left: 5rem;
+  background: linear-gradient(0deg, #89bbbf 0, #8d89bf 100%);
+  position: relative;
+  z-index: -1;
+}
+
+.main-square {
+  height: 50rem;
+  width: 90rem;
+  bottom: -25rem;
+  left: -55rem;
+  z-index: -1;
+  position: absolute;
+  border-radius: 0;
+  background: #8d89bf;
 }
