@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+/* NAVIGATION */
+.navi {
+  height: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  line-height: 1.5;
+}
+
+/* BODY */
+.name-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+}
+.main-heading {
+  padding-bottom: 8.5rem;
+  padding-top: 10rem;
+  position: relative;
+  background: linear-gradient(0deg, #8fcfd1 0, #df5e88 100%);
+}
+
+.main-image {
+  height: 30rem;
+  width: 25rem;
+  object-fit: cover;
+  float: left;
+}
+
+.mainbody-text {
+  width: 60%;
+  float: right;
+}
+
+.masthead {
+  text-align: center;
+  padding-top: 8rem;
+}

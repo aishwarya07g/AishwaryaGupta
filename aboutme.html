@@ -4,36 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Catamaran:wght@700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- JAVASCRIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/42d713ed38.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- LOCAL CSS FILE -->
+    <link rel="stylesheet" href="aboutme.css" />
   </head>
   <body>
-    <h1>ABOUT</h1>
-    <h2>Hello there!</h2>
-    <br />
+    <!-- NAVIGATION -->
+    <section id="navigation">
+      <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container navi">
+          <a class="navbar-brand" href="#">AG</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESUME</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="main-heading">
+      <h6 class="name-heading mb-0">
+        About
+      </h6>
+    </header>
 
-    <p>
-      I am Aishwarya, a computer science major based in Bangalore, India with a
-      thriving passion to change the perspective of how technology and design
-      work hand-in-hand, in a cognitive way. I am also an artist, a travel
-      enthusiast, a space fanatic, a dog lover and a crazy indie music fangirl.
-    </p>
-    <p>
-      As a child, I always wondered about space. Yes, I was indeed trapped in
-      its enchanting beauty. The glowing stars and its magnificent planets. Ever
-      since my childhood, I've been privileged to grow up around people who
-      inspire me to achieve my dreams. My sister, who has always been fascinated
-      with the field of science and art, enthralled me to get creative and
-      ambitious with technology.
-    </p>
-    <p>
-      Today, I am a final year student who would love to explore the world full
-      of opportunities and wishes to fulfill her childhood dreams. As Randy
-      Pausch once said, 'Follow your passions, believe in karma, and you won't
-      have to chase your dreams, they will come to you.'
-    </p>
-    <br />
-    <h2>When I'm not testing my brain, I'm either traveling places</h2>
-    <h2>Or crunching on some delicious calories</h2>
-    <h2>Or illustrating/sketching into the void</h2>
-    <h2>Curious to learn more? Feel free to reach out to me via</h2>
+    <div class="container masthead">
+      <img
+        src="images/me/Aish-main.jpg"
+        alt="Aishwarya-Gupta-img"
+        class="main-image clearfix"
+      />
+      <div class="">
+        <h2 class="text-center">Hello there!</h2>
+      </div>
+
+      <div class="container text-justify clearfix">
+        <p class="mainbody-text">
+          I am Aishwarya, a computer science major based in Bangalore, India
+          with a thriving passion to change the perspective of how technology
+          and design work hand-in-hand, in a cognitive way. I am also an artist,
+          a travel enthusiast, a space fanatic, a dog lover and a crazy indie
+          music fangirl.
+          <br /><br />
+          As a child, I always wondered about space. Yes, I was indeed trapped
+          in its enchanting beauty, the glowing stars and its magnificent
+          planets. Ever since my childhood, I've been privileged to grow up
+          around people who inspire me to achieve my dreams. My sister, who has
+          always been fascinated with the field of science and art, enthralled
+          me to get creative and ambitious with technology.
+          <br /><br />
+          Today, I am a final year student who would love to explore the world
+          full of opportunities and wishes to fulfill her childhood dreams. As
+          Randy Pausch once said, 'Follow your passions, believe in karma, and
+          you won't have to chase your dreams, they will come to you.'
+        </p>
+      </div>
+
+      <!-- <h2>When I'm not testing my brain, I'm either traveling places</h2>
+      <h2>Or crunching on some delicious calories</h2>
+      <h2>Or illustrating/sketching into the void</h2>
+      <h2>Curious to learn more? Feel free to reach out to me via</h2> -->
+    </div>
   </body>
 </html>

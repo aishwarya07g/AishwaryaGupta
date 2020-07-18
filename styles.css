@@ -31,7 +31,7 @@ h6 {
   background-attachment: scroll;
   background-size: cover;
   overflow: visible;
-  background: linear-gradient(0deg, #8d89bf 0, #89bbbf 100%);
+  background: linear-gradient(0deg, #8fcfd1 0, #df5e88 100%);
 }
 
 .heading {
@@ -55,8 +55,8 @@ h6 {
 }
 
 .btn-primary {
-  background-color: #89bbbf;
-  border-color: #89bbbf;
+  background-color: #df5e88;
+  border-color: #df5e88;
   font-family: 'Raleway', sans-serif;
   font-size: 0.8rem;
   padding: 1.5rem 3rem;
@@ -65,40 +65,7 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-btn-primary:hover {
-  background-color: #89bbbf;
-  border-color: #89bbbf;
-}
-
-.square1 {
-  height: 30rem;
-  width: 30rem;
-  top: -10rem;
-  /* right: 35%; */
-  margin: 0 auto 0 auto;
-  background: linear-gradient(0deg, #89bbbf 0, #8d89bf 100%);
-  position: relative;
-  z-index: -1;
-}
-
-.square2 {
-  height: 30rem;
-  width: 22rem;
-  top: -40rem;
-  left: 57rem;
-  padding-left: 5rem;
-  background: linear-gradient(0deg, #89bbbf 0, #8d89bf 100%);
-  position: relative;
-  z-index: -1;
-}
-
-.main-square {
-  height: 50rem;
-  width: 90rem;
-  bottom: -25rem;
-  left: -55rem;
-  z-index: -1;
-  position: absolute;
-  border-radius: 0;
-  background: #8d89bf;
+.showbutt:hover {
+  background-color: #df5e88;
+  border-color: #df5e88;
 }
