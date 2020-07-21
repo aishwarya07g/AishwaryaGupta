@@ -75,16 +75,58 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .mainbody-text {
-    float: right;
-    padding-top: 5rem;
+    float: left;
+    padding-top: 1.5rem;
     position: relative;
-    right: 3rem;
+    left: 9.25rem;
+  }
+
+  .main-image {
+    position: relative;
+    left: 10rem;
+  }
+  .mainbody-hello {
+    float: left;
+    position: relative;
+    right: 7.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainbody-text {
+    position: absolute;
+    top: 66rem;
   }
 
   .main-image {
     position: relative;
     left: 5rem;
+  }
+  .mainbody-hello {
+    float: left;
+    position: relative;
+    bottom: 30rem;
+    left: 12rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .mainbody-text {
+    position: absolute;
+    top: 66rem;
+  }
+
+  .main-image {
+    position: relative;
+    left: 2rem;
+    right: 1rem;
+  }
+  .mainbody-hello {
+    float: left;
+    position: relative;
+    bottom: 30rem;
+    left: 9.5rem;
   }
 }
