@@ -46,3 +46,45 @@ body {
   text-align: center;
   padding-top: 8rem;
 }
+
+/* TRAVEL */
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+/* RESPONSIVE PAGES */
+@media (max-width: 1200px) {
+  .mainbody-text {
+    float: left;
+    padding-top: 2rem;
+    position: relative;
+    left: 10rem;
+  }
+
+  .main-image {
+    position: relative;
+    left: 15rem;
+  }
+
+  .mainbody-hello {
+    float: left;
+    position: relative;
+    right: 2rem;
+    padding-top: 31rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainbody-text {
+    float: right;
+    padding-top: 5rem;
+    position: relative;
+    right: 3rem;
+  }
+
+  .main-image {
+    position: relative;
+    left: 5rem;
+  }
+}
