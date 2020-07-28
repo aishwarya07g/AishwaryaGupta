@@ -56,6 +56,14 @@ body {
   padding-bottom: 2rem;
 }
 
+#foot {
+  height: 5rem;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footp {
+}
 /* RESPONSIVE PAGES */
 /* @media (max-width: 1200px) {
   .mainbody-text {
