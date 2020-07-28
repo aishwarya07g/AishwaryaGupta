@@ -65,6 +65,10 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
+.showbutt {
+  scroll-behavior: smooth;
+}
+
 .showbutt:hover {
   background-color: #df5e88;
   border-color: #df5e88;

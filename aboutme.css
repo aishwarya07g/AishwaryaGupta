@@ -31,10 +31,12 @@ body {
 }
 
 .main-image {
-  height: 30rem;
-  width: 25rem;
-  object-fit: cover;
   float: left;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .mainbody-text {
@@ -51,9 +53,11 @@ body {
 .img1 {
   max-width: 100%;
   height: auto;
+  padding-bottom: 2rem;
 }
+
 /* RESPONSIVE PAGES */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .mainbody-text {
     float: left;
     padding-top: 2rem;
@@ -129,4 +133,4 @@ body {
     bottom: 30rem;
     left: 9.5rem;
   }
-}
+} */
